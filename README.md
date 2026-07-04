@@ -222,3 +222,17 @@ To scale this system into a publication-quality capstone project or commercial p
 2.  **Night-Time Image Enhancement:** Integrate contrast-limited adaptive histogram equalization (CLAHE) or zero-shot low-light enhancement models (like Zero-DCE) to improve YOLO accuracy under poor illumination.
 3.  **Multi-Camera Thread Pool:** Run multiple instances of `live_observer.py` in a thread pool, each listening to a different RTSP stream URL, feeding a consolidated database schema.
 4.  **DeepSORT/ByteTrack Integration:** Track unique individuals over frames to compute speed, trajectory, and distinguish between quick pass-throughs and suspicious lingering behaviors.
+
+---
+
+## 📸 Demo & Screenshots
+
+### Live Web Dashboard Demo
+Here is the Flask Admin Dashboard showing the real-time intrusion log ingestion, status monitoring, and layout presentation:
+
+![Surveillance Dashboard Workspace](Smart-Surveillance-main/static/assets/dashboard_working.png)
+
+### Video Walkthrough
+You can review the interactive walkthrough video showing the dashboard loading process and auto-refresh feature:
+
+![Dashboard Video Walkthrough](Smart-Surveillance-main/static/assets/demo.webp)
