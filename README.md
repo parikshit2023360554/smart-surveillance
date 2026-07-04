@@ -1,5 +1,9 @@
 # Smart Surveillance: AI-Powered After-Hours Intrusion & Suspicious Behavior Detection
 
+<p align="center">
+  <img src="Smart-Surveillance-main/static/thumbnail.png" width="600" alt="Smart Surveillance Dashboard Logo">
+</p>
+
 An intelligent, multi-threaded computer vision security system designed for capstone research and enterprise environments. The system uses **YOLOv8** to monitor video feeds (RTSP/Webcam) for unauthorized human presence during after-hours, logs telemetry to a **PostgreSQL** database, dispatches rich email alerts containing snapshot attachments and interactive action buttons, and serves a modern real-time **Flask** dashboard for threat confirmation.
 
 ---
